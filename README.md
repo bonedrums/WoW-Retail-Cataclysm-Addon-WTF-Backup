@@ -23,7 +23,7 @@ Download the executable (`Wow Cataclysm Addon and WTF Backup.exe`) from the rele
 
 - Python 3.x
 
-Install customtkinter using pip:
+Install customtkinter using pip: ('pip install customtkinter')
 
 ## Usage
 

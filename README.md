@@ -1,4 +1,4 @@
-# WoW Cataclysm Addons Backup
+# WoW Cataclysm Addons and WTF Backup
 
 This Python program facilitates backing up World of Warcraft (WoW) Classic addon and configuration files from specific directories to a chosen destination. It uses a graphical user interface (GUI) built with customtkinter for a modern look and functionality.
 

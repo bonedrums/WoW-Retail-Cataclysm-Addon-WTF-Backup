@@ -45,7 +45,10 @@ Install customtkinter using pip: ('pip install customtkinter')
 
 1. **Install Dependencies:**
    - Make sure Python 3.x is installed.
-   - Install customtkinter using `pip install customtkinter`.
+   - Install customtkinter
+     ```
+     pip install customtkinter
+     ```
 
 2. **Launch the Script:**
    - Open a command prompt.

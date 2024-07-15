@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/c3f124be-baab-49fd-ad07-e5d6484c97ea" alt="Image" />
+  <img src="![image](https://github.com/user-attachments/assets/63da0dff-9250-4d20-ac6c-63a1a5bfa4d3)" alt="Image" />
 </div>
 
 # WoW Cataclysm Addons and WTF Backup

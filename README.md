@@ -55,10 +55,10 @@ Install customtkinter using pip: ('pip install customtkinter')
 
 2. **Launch the Script:**
    - Open a command prompt.
-   - Navigate to the directory containing `backup_wow_addons_wtf_v2.py`.
+   - Navigate to the directory containing `backup_wow_addons_wtf.py`.
    - Run the script:
      ```
-     python backup_wow_addons_wtf_v2.py
+     python backup_wow_addons_wtf.py
      ```
 
 3. **Follow On-screen Instructions:**

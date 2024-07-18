@@ -15,10 +15,6 @@ This Python program facilitates backing up World of Warcraft (WoW) Classic addon
 
 ## Dependencies
 
-### Running the Executable (Windows)
-
-Download the executable (`Wow Cataclysm Addon and WTF Backup.exe`) from the releases page.
-
 ### Running from Python
 
 - Python 3.x
@@ -26,15 +22,6 @@ Download the executable (`Wow Cataclysm Addon and WTF Backup.exe`) from the rele
 Install customtkinter using pip: ('pip install customtkinter')
 
 ## Usage
-
-### Running the Executable
-
-1. **Download and Extract:**
-   - Download `Wow Cataclysm Addon and WTF Backup.exe` from the releases page.
-   - Extract the executable to a directory of your choice.
-
-2. **Launch the Executable:**
-   - Double-click `Wow Cataclysm Addon and WTF Backup.exe` to start the application.
 
 3. **Follow On-screen Instructions:**
    - Select backup directories and options using the GUI.
@@ -45,7 +32,6 @@ Install customtkinter using pip: ('pip install customtkinter')
 
 1. **Install Dependencies:**
    - Make sure Python 3.x is installed.
-   - Install customtkinter
      ```
      pip install customtkinter
      pip install requests

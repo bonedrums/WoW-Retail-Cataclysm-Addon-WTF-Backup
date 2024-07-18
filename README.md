@@ -32,8 +32,11 @@ Install customtkinter using pip: ('pip install customtkinter')
 
 1. **Install Dependencies:**
    - Make sure Python 3.x is installed.
+
      ```
      pip install customtkinter
+     ```
+     ```
      pip install requests
      ```
 
@@ -41,6 +44,7 @@ Install customtkinter using pip: ('pip install customtkinter')
    - Open a command prompt.
    - Navigate to the directory containing `backup_wow_addons_wtf.py`.
    - Run the script:
+     
      ```
      python backup_wow_addons_wtf.py
      ```

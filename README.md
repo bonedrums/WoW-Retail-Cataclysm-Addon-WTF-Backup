@@ -51,6 +51,7 @@ Install customtkinter using pip: ('pip install customtkinter')
    - Install customtkinter
      ```
      pip install customtkinter
+     pip install requests
      ```
 
 2. **Launch the Script:**

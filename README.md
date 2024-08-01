@@ -31,8 +31,6 @@ This Python program helps you back up World of Warcraft (WoW) Classic addon and 
     Navigate to the directory with backup_wow_addons_wtf.py.
     Run the script:
 
-    sh
-
         python backup_wow_addons_wtf.py
 
     Follow On-screen Instructions:

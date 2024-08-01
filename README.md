@@ -44,12 +44,12 @@ This Python program helps you back up World of Warcraft (WoW) Classic addon and 
 
 The Update Addons section allows you to keep your WoW addons up to date. It downloads the latest versions of specified addons from GitHub repositories and replaces the existing files in the WoW AddOns directory.
 
-    Supported Addons:
+   Supported Addons:
         Hekili
         Eltruism
         ElvUI
 
-    Usage:
+   Usage:
         Select the addons you want to update using the checkboxes.
         Click "Update Addons" to start the update process.
         The application will display progress and completion status for each addon.

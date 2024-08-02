@@ -37,10 +37,7 @@ def update_addons():
     if not os.path.exists(temp_dir):
         os.makedirs(temp_dir)
 
-    for url, folder_name in ADDONS:
-        if not globals()[f"{folder_name.lower()}_toggle"].get():
-            continue
-        
+    def download_and_extract(url, folder_name):
         try:
             logging.info(f"Processing addon: {folder_name}")
 
@@ -115,6 +112,16 @@ def update_addons():
                 os.remove(local_zip_path)
             if os.path.exists(extract_path):
                 shutil.rmtree(extract_path)
+
+    threads = []
+    for url, folder_name in ADDONS:
+        if globals()[f"{folder_name.lower()}_toggle"].get():
+            thread = threading.Thread(target=download_and_extract, args=(url, folder_name))
+            threads.append(thread)
+            thread.start()
+
+    for thread in threads:
+        thread.join()
 
     if os.path.exists(temp_dir):
         shutil.rmtree(temp_dir)
@@ -321,7 +328,7 @@ if __name__ == "__main__":
     elvui_toggle = ctk.CTkCheckBox(addon_toggle_frame, text="ElvUI")
     elvui_toggle.pack(side="left", padx=10, pady=10)
 
-    update_addons_button = ctk.CTkButton(update_frame, text="Update Addons", command=update_addons, font=("Arial Narrow", 12, "bold"))
+    update_addons_button = ctk.CTkButton(update_frame, text="Update Addons", command=lambda: threading.Thread(target=update_addons).start(), font=("Arial Narrow", 12, "bold"))
     update_addons_button.pack(pady=10, ipadx=5)
 
     app.mainloop()

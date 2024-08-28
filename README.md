@@ -1,58 +1,45 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/0fe9cf33-5d41-42e0-a438-7753657ed4c8" alt="Image" />
+  <img src="https://github.com/user-attachments/assets/4e18e8cf-9c66-4d69-a947-ed10ff9df1a6" alt="Image" />
 </div>
 
-# WoW Cataclysm Addons and WTF Backup
+# WoW Cataclysm Backup Utility
 
-This Python program helps you back up World of Warcraft (WoW) Classic addon and configuration files. It uses a modern GUI built with customtkinter.
+This Python program helps you create backups of your World of Warcraft Classic addon and configuration files.
 
 ## Features
 
-- **Backup Creation:** Select directories for WoW addons and settings.
-- **Zip and Move:** Archive directories into a timestamped ZIP file and move it to a chosen destination.
-- **Progress Tracking:** Real-time progress display.
-- **Cancel Backup:** Option to cancel the backup process at any time.
-- **Update Addons:** Download and update specified WoW addons from GitHub repositories.
+   * Backs up your `AddOns` and `WTF` folders.
+   * Creates a compressed `.zip` archive of the selected folders.
+   * Provides a user-friendly graphical interface.
+   * Shows real-time progress during the backup process.
+   * Allows you to cancel the backup at any time.
 
-## Dependencies
+## Installation
 
-- Python 3.x
-- customtkinter
-- requests
+1. **Prerequisites**
+   * You need to have Python 3.x installed on your system. If you don't have it, download it from the official website: [https://www.python.org/](https://www.python.org/)
 
-## Usage
+2. **Install Dependencies**
+   * Open your terminal or command prompt.
+   * Navigate to the directory where you've downloaded this project.
+   * Run the following command to install the required libraries:
 
-1. **Install Dependencies:**
-   ```sh
-   pip install customtkinter requests
-2. Launch the Script:
+```bash
+   pip install customtkinter
+```
+    
+3. **Run the Utility**
+   * In your terminal or command prompt, navigate to the project directory.
+   * Execute the following command:
 
-    Open a command prompt.
-    Navigate to the directory with backup_wow_addons_wtf.py.
-    Run the script:
+```bash
+    python backup_wow_addons_wtf.py 
+```
+   * The graphical interface will open. Follow the on-screen instructions to select the folders you want to back up and the backup destination.
 
-        python backup_wow_addons_wtf.py
+4. **Important Notes**
+   * Make sure you have sufficient disk space at the backup destination.
+   * The backup process might take some time depending on the size of your AddOns and WTF folders.
 
-    Follow On-screen Instructions:
-        Select backup directories and options using the GUI.
-        Click "Start Backup" to begin.
-        Click "Cancel Backup" to stop at any time.
-
-3. Update Addons Section
-
-The Update Addons section allows you to keep your WoW addons up to date. It downloads the latest versions of specified addons from GitHub repositories and replaces the existing files in the WoW AddOns directory.
-
-   Supported Addons:
-        Hekili
-        Eltruism
-        ElvUI
-
-   Usage:
-        Select the addons you want to update using the checkboxes.
-        Click "Update Addons" to start the update process.
-        The application will display progress and completion status for each addon.
-
-4. Instructions
-
-    Ensure Python and required dependencies are installed.
-    Ensure sufficient disk space and permissions for the backup destination.
+6. **Contributing**
+   * Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.

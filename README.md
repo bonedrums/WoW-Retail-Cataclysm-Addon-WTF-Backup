@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/4e18e8cf-9c66-4d69-a947-ed10ff9df1a6" alt="Image" />
+  <img src="[https://github.com/user-attachments/assets/a1fdec57-c9a7-4240-b259-feca3b81882c" alt="Image" />
 </div>
 
 # WoW Cataclysm Backup Utility
 
-This Python program helps you create backups of your World of Warcraft Classic addon and configuration files.
+This Python program helps you create backups of your World of Warcraft Retail and Cataclysm addon and configuration files.
 
 ## Features
 

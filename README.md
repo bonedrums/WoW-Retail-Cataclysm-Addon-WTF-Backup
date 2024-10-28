@@ -1,6 +1,5 @@
-<div align="center">
-  <img src="[https://github.com/user-attachments/assets/a1fdec57-c9a7-4240-b259-feca3b81882c"/>
-</div>
+![image](https://github.com/user-attachments/assets/c0e07db6-6c4a-4c2d-a2cc-31ba87596c87)
+
 
 # WoW Cataclysm Backup Utility
 

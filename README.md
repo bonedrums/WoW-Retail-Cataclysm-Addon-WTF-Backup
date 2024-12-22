@@ -32,8 +32,12 @@ This Python program helps you create backups of your World of Warcraft Retail an
    * Execute the following command:
 
 ```bash
-    python backup_wow_addons_wtf.py 
+    python Windows_backup_wow_addons_WTF.py
 ```
+```bash
+  python3 Mac_backup_wow_addons_WTF.py
+```
+
    * The graphical interface will open. Follow the on-screen instructions to select the folders you want to back up and the backup destination.
 
 4. **Important Notes**
